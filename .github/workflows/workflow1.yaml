@@ -10,6 +10,7 @@ jobs:
   Secon_Job:
     name: Mon Second Job tah les oufs
     runs-on: ubuntu-latest
+    needs: Premier_Job
     steps:
       - run: echo "Second job"
       - run: echo "FIN du second job tah les oufs"
