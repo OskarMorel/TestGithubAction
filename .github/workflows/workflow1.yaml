@@ -7,3 +7,9 @@ jobs:
     steps:
       - run: echo "Premier Job"
       - run: echo "FIN du premier job"
+  Secon_Job:
+    name: Mon Second Job tah les oufs
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Second job"
+      - run: echo "FIN du second job tah les oufs"
